@@ -75,7 +75,6 @@ struct PromptForm {
 async fn main() -> std::io::Result<()> {
     let mut ngrammodel = NGramLanguageModel::new(2);
     
-    // Train the model on a book or text corpus
     let book_text = "
     The village of Locon lies five miles out from Bethune, on the
     Estaires road. Now it is broken by the war: in October 1916 it was as
