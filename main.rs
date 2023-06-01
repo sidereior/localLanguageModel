@@ -3,6 +3,7 @@ use rand::seq::SliceRandom;
 use rand::thread_rng;
 use actix_web::{web, App, HttpResponse, HttpServer, Responder};
 
+#[derive(Clone)]
 struct NGramLanguageModel {
     n: usize,
     ngrams: HashMap<Vec<String>, Vec<String>>,
@@ -20,16 +21,14 @@ impl NGramLanguageModel {
         let words: Vec<String> = text.split_whitespace().map(|w| w.to_string()).collect();
         
         for i in 0..(words.len() - self.n) {
-            let ngram = words[i..(i+self.n)].to_vec();
-            let next_word = words[i+self.n].clone();
-            
-            self.ngrams.entry(ngram).or_insert(Vec::new()).push(next_word);
+
+            self.ngrams.entry(words[i..(i+self.n)].to_vec()).or_insert(Vec::new()).push( words[i+self.n].clone());
         }
     }
     
     fn generate(&self, prompt: &str, length: usize) -> String {
         let mut output: Vec<String> = prompt.split_whitespace().map(|w| w.to_string()).collect();
-        
+
         let mut rng = thread_rng();
         for _ in 0..length {
             let ngram = output[(output.len() - self.n)..].to_vec();
@@ -64,9 +63,7 @@ async fn index() -> impl Responder {
 }
 
 async fn generate(model: web::Data<NGramLanguageModel>, form: web::Form<PromptForm>) -> impl Responder {
-    let prompt = &form.prompt;
-    let response = model.generate(prompt, 10);
-    HttpResponse::Ok().body(format!("Response: {}", response))
+    HttpResponse::Ok().body(format!("Response: {}", model.generate(&form.prompt, 10)))
 }
 
 #[derive(serde::Deserialize)]
@@ -76,7 +73,7 @@ struct PromptForm {
 
 #[actix_web::main]
 async fn main() -> std::io::Result<()> {
-    let mut ngram_model = NGramLanguageModel::new(2);
+    let mut ngrammodel = NGramLanguageModel::new(2);
     
     // Train the model on a book or text corpus
     let book_text = "
@@ -92,11 +89,11 @@ async fn main() -> std::io::Result<()> {
     overgrown and the wood of the crosses was coloured green with lichen.
     Beyond the orchard was a farm with a garden in front, full of common
     flowers, and a flagged path to the door.";
-    ngram_model.train(book_text);
+    ngrammodel.train(book_text);
     
     HttpServer::new(move || {
         App::new()
-            .data(ngram_model.clone())
+            .data(ngrammodel.clone())
             .route("/", web::get().to(index))
             .route("/generate", web::post().to(generate))
     })
