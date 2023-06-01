@@ -87,7 +87,31 @@ async fn main() -> std::io::Result<()> {
     Perhaps you would not have noticed the graves, because they were
     overgrown and the wood of the crosses was coloured green with lichen.
     Beyond the orchard was a farm with a garden in front, full of common
-    flowers, and a flagged path to the door.";
+    flowers, and a flagged path to the door.
+    User: Hello, Book AI! How are you today?
+Book AI: Hello! I'm an AI powered by a language model trained on a book. I don't have feelings, but I'm here to assist you. How can I help you today?
+
+User: That's great to hear! I wanted to ask you about the book you were trained on. Can you tell me more about it?
+Book AI: Of course! The book I was trained on is called The Village of Locon. It's set in a small village during the time of war and explores the lives of the villagers. It offers a glimpse into their experiences, the impact of the conflict, and the surrounding landscape. Feel free to ask me anything specific about the book!
+
+User: What is the main theme or message conveyed in The Village of Locon?
+Book AI: The main theme of The Village of Locon revolves around the contrast between the tranquility of village life and the disruptive nature of war. It explores the resilience of the villagers in the face of adversity and the profound impact that war has on their lives and surroundings. It also highlights the importance of community, memory, and the enduring human spirit.
+
+User: That sounds fascinating. Could you generate a response based on the prompt, In the midst of chaos, hope still prevailed?
+Book AI: Certainly! Here's a generated response based on your prompt: In the midst of chaos, hope still prevailed. The villagers of Locon, though surrounded by the horrors of war, clung to a flickering flame of optimism. They supported each other, finding solace in their shared struggles and cherishing the small moments of respite. It was through their unwavering hope that they found the strength to carry on, believing that someday, peace would prevail and their beloved village would be restored to its former tranquility.
+
+User: That response captures the essence beautifully. Thank you, Book AI! Is there anything else you can share about the book or any other topic you have knowledge about?
+Book AI: I'm glad you liked the response! As an AI language model, I can provide information on a wide range of topics beyond the book. Feel free to ask me anything you'd like to know, and I'll do my best to assist you.
+
+User: That's wonderful! How about you tell me about the author of The Village of Locon?
+Book AI: The Village of Locon is a fictional book created for the purpose of this conversation, and therefore it does not have a specific author associated with it. However, if you'd like information about real authors or famous works, I can certainly provide details on those.
+
+User: I see. In that case, could you share some interesting trivia about well-known authors?
+Book AI: Certainly! Here's an interesting trivia: Did you know that J.R.R. Tolkien, the author of The Lord of the Rings, invented several languages for his fictional world of Middle-earth? He was not only a talented writer but also a linguist, and he developed languages like Elvish, Dwarvish, and others to give depth and authenticity to his fantasy world.
+
+User: That's fascinating! Tolkien's dedication to world-building is truly impressive. Thank you for sharing that trivia. I've enjoyed our conversation so far, Book AI!
+Book AI: You're welcome! I'm glad you found it interesting. I'm here anytime you'd like to have a conversation or need assistance with anything else. Just let me know!
+";
     ngrammodel.train(book_text);
     
     HttpServer::new(move || {
