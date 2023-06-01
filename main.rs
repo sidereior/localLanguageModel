@@ -1,3 +1,4 @@
+
 use std::collections::HashMap;
 use rand::seq::SliceRandom;
 use rand::thread_rng;
@@ -49,11 +50,23 @@ fn main() {
     let mut ngram_model = NGramLanguageModel::new(2);
     
     // Train the model on a book or text corpus
-    let book_text = "Insert your book text here.";
+    let book_text = "
+    The village of Locon lies five miles out from Bethune, on the
+    Estaires road. Now it is broken by the war: in October 1916 it was as
+    comfortable and quiet a village as any four miles behind the line.
+    If you had entered it at dusk, when the flashes of the guns begin
+    to show, and passed by the square and the church and that trap for
+    despatch-riders where the _chemin-de-fer vicinal_ crosses to the left
+    of the road from the right, you would have come to a scrap of orchard
+    on your left where the British cavalrymen are buried who fell in 1914.
+    Perhaps you would not have noticed the graves, because they were
+    overgrown and the wood of the crosses was coloured green with lichen.
+    Beyond the orchard was a farm with a garden in front, full of common
+    flowers, and a flagged path to the door.";
     ngram_model.train(book_text);
     
     // Generate a response based on a prompt
-    let prompt = "How does the main character feel";
+    let prompt = " The village of Locon";
     let response = ngram_model.generate(prompt, 10);
     
     println!("Response: {}", response);
