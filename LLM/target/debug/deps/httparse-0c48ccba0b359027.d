@@ -1,0 +1,12 @@
+C:\Users\alexa\Desktop\localLangModel\target\debug\deps\httparse-0c48ccba0b359027.rmeta: C:\Users\alexa\.cargo\registry\src\github.com-1ecc6299db9ec823\httparse-1.8.0\src\lib.rs C:\Users\alexa\.cargo\registry\src\github.com-1ecc6299db9ec823\httparse-1.8.0\src\iter.rs C:\Users\alexa\.cargo\registry\src\github.com-1ecc6299db9ec823\httparse-1.8.0\src\macros.rs C:\Users\alexa\.cargo\registry\src\github.com-1ecc6299db9ec823\httparse-1.8.0\src\simd\mod.rs C:\Users\alexa\.cargo\registry\src\github.com-1ecc6299db9ec823\httparse-1.8.0\src\simd\sse42.rs C:\Users\alexa\.cargo\registry\src\github.com-1ecc6299db9ec823\httparse-1.8.0\src\simd\avx2.rs
+
+C:\Users\alexa\Desktop\localLangModel\target\debug\deps\libhttparse-0c48ccba0b359027.rlib: C:\Users\alexa\.cargo\registry\src\github.com-1ecc6299db9ec823\httparse-1.8.0\src\lib.rs C:\Users\alexa\.cargo\registry\src\github.com-1ecc6299db9ec823\httparse-1.8.0\src\iter.rs C:\Users\alexa\.cargo\registry\src\github.com-1ecc6299db9ec823\httparse-1.8.0\src\macros.rs C:\Users\alexa\.cargo\registry\src\github.com-1ecc6299db9ec823\httparse-1.8.0\src\simd\mod.rs C:\Users\alexa\.cargo\registry\src\github.com-1ecc6299db9ec823\httparse-1.8.0\src\simd\sse42.rs C:\Users\alexa\.cargo\registry\src\github.com-1ecc6299db9ec823\httparse-1.8.0\src\simd\avx2.rs
+
+C:\Users\alexa\Desktop\localLangModel\target\debug\deps\httparse-0c48ccba0b359027.d: C:\Users\alexa\.cargo\registry\src\github.com-1ecc6299db9ec823\httparse-1.8.0\src\lib.rs C:\Users\alexa\.cargo\registry\src\github.com-1ecc6299db9ec823\httparse-1.8.0\src\iter.rs C:\Users\alexa\.cargo\registry\src\github.com-1ecc6299db9ec823\httparse-1.8.0\src\macros.rs C:\Users\alexa\.cargo\registry\src\github.com-1ecc6299db9ec823\httparse-1.8.0\src\simd\mod.rs C:\Users\alexa\.cargo\registry\src\github.com-1ecc6299db9ec823\httparse-1.8.0\src\simd\sse42.rs C:\Users\alexa\.cargo\registry\src\github.com-1ecc6299db9ec823\httparse-1.8.0\src\simd\avx2.rs
+
+C:\Users\alexa\.cargo\registry\src\github.com-1ecc6299db9ec823\httparse-1.8.0\src\lib.rs:
+C:\Users\alexa\.cargo\registry\src\github.com-1ecc6299db9ec823\httparse-1.8.0\src\iter.rs:
+C:\Users\alexa\.cargo\registry\src\github.com-1ecc6299db9ec823\httparse-1.8.0\src\macros.rs:
+C:\Users\alexa\.cargo\registry\src\github.com-1ecc6299db9ec823\httparse-1.8.0\src\simd\mod.rs:
+C:\Users\alexa\.cargo\registry\src\github.com-1ecc6299db9ec823\httparse-1.8.0\src\simd\sse42.rs:
+C:\Users\alexa\.cargo\registry\src\github.com-1ecc6299db9ec823\httparse-1.8.0\src\simd\avx2.rs:

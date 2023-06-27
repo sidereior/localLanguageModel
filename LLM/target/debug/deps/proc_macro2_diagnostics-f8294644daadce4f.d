@@ -1,0 +1,10 @@
+C:\Users\alexa\Desktop\localLangModel\target\debug\deps\proc_macro2_diagnostics-f8294644daadce4f.rmeta: C:\Users\alexa\.cargo\registry\src\github.com-1ecc6299db9ec823\proc-macro2-diagnostics-0.10.0\src\lib.rs C:\Users\alexa\.cargo\registry\src\github.com-1ecc6299db9ec823\proc-macro2-diagnostics-0.10.0\src\ext.rs C:\Users\alexa\.cargo\registry\src\github.com-1ecc6299db9ec823\proc-macro2-diagnostics-0.10.0\src\diagnostic.rs C:\Users\alexa\.cargo\registry\src\github.com-1ecc6299db9ec823\proc-macro2-diagnostics-0.10.0\src\line.rs
+
+C:\Users\alexa\Desktop\localLangModel\target\debug\deps\libproc_macro2_diagnostics-f8294644daadce4f.rlib: C:\Users\alexa\.cargo\registry\src\github.com-1ecc6299db9ec823\proc-macro2-diagnostics-0.10.0\src\lib.rs C:\Users\alexa\.cargo\registry\src\github.com-1ecc6299db9ec823\proc-macro2-diagnostics-0.10.0\src\ext.rs C:\Users\alexa\.cargo\registry\src\github.com-1ecc6299db9ec823\proc-macro2-diagnostics-0.10.0\src\diagnostic.rs C:\Users\alexa\.cargo\registry\src\github.com-1ecc6299db9ec823\proc-macro2-diagnostics-0.10.0\src\line.rs
+
+C:\Users\alexa\Desktop\localLangModel\target\debug\deps\proc_macro2_diagnostics-f8294644daadce4f.d: C:\Users\alexa\.cargo\registry\src\github.com-1ecc6299db9ec823\proc-macro2-diagnostics-0.10.0\src\lib.rs C:\Users\alexa\.cargo\registry\src\github.com-1ecc6299db9ec823\proc-macro2-diagnostics-0.10.0\src\ext.rs C:\Users\alexa\.cargo\registry\src\github.com-1ecc6299db9ec823\proc-macro2-diagnostics-0.10.0\src\diagnostic.rs C:\Users\alexa\.cargo\registry\src\github.com-1ecc6299db9ec823\proc-macro2-diagnostics-0.10.0\src\line.rs
+
+C:\Users\alexa\.cargo\registry\src\github.com-1ecc6299db9ec823\proc-macro2-diagnostics-0.10.0\src\lib.rs:
+C:\Users\alexa\.cargo\registry\src\github.com-1ecc6299db9ec823\proc-macro2-diagnostics-0.10.0\src\ext.rs:
+C:\Users\alexa\.cargo\registry\src\github.com-1ecc6299db9ec823\proc-macro2-diagnostics-0.10.0\src\diagnostic.rs:
+C:\Users\alexa\.cargo\registry\src\github.com-1ecc6299db9ec823\proc-macro2-diagnostics-0.10.0\src\line.rs:
